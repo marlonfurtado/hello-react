@@ -24,4 +24,3 @@ npm run build
 # 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)  
 For more infos about React, check out the [docs](https://github.com/facebook/react/)  
-Adapted from this [tutorial](https://appdividend.com/2017/07/22/react-firebase-tutorial/)
