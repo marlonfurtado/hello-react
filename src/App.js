@@ -16,15 +16,11 @@ class App extends Component {
     return (
       <div className="App">
         <Header title="Hello! Welcome to React." />
-        <div className="columns">
-          <div className="column is-3"></div>
-          <div className="column is-6">
+        <div className="container">
+          <div className="m-t-30">
             <MessageList db={firebase} />
           </div>
-        </div>
-        <div className="columns">
-          <div className="column is-3"></div>
-          <div className="column is-6">
+          <div className="m-t-10">
             <MessageBox db={firebase} />
           </div>
         </div>

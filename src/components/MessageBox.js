@@ -32,17 +32,17 @@ class MessageBox extends Component {
 
   render() {
     return (
-      <form>
+      <div className="control">
         <textarea
           className="textarea"
-          placeholder="Type a message"
-          rows="2"
-          cols="100"
+          placeholder="Type a message...   Disabled, for now!  Try to enable in inspect."
+          rows="1"
           onChange={this.onChange}
           onKeyUp={this.onKeyup}
-          value={this.state.message}>
+          value={this.state.message}
+          disabled>
         </textarea>
-      </form>
+      </div>
     )
   }
 }
